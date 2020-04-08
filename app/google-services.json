@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "315201460018",
+    "firebase_url": "https://try1-e3c2f.firebaseio.com",
+    "project_id": "try1-e3c2f",
+    "storage_bucket": "try1-e3c2f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315201460018:android:739b6c67dbe64a72f4e92b",
+        "android_client_info": {
+          "package_name": "com.example.lightjam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315201460018-9ocmmd0hcurm6au2anmclh88ihrboh63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx_MvgkFe_647uVGW2wLc84JfAWt8GvEI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315201460018-9ocmmd0hcurm6au2anmclh88ihrboh63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

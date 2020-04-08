@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".profile"
+    tools:showIn="@layout/activity_profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TextView
+            style="@style/headerText"
+            android:text="Account Info"
+            android:layout_marginBottom="20dp"/>
+        <RelativeLayout style="@style/profileDetailsLayout">
+
+            <ImageView
+                android:id="@+id/nameImageView"
+                android:src="@drawable/man"
+                style="@style/profileDetailsImage"
+                 />
+            <TextView
+                android:id="@+id/nameTextView"
+                android:text="Name"
+                android:layout_toRightOf="@id/nameImageView"
+                style="@style/profileDetailsTextMain" />
+            <TextView
+                android:text="the name itself"
+                android:layout_toRightOf="@id/nameImageView"
+                style="@style/profileDetailsMiniText" />
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/countryView"
+                android:src="@drawable/mountain_peak"
+                style="@style/profileDetailsImage" />
+            <TextView
+                android:text="Country"
+                android:layout_toRightOf="@id/countryView"
+                style="@style/profileDetailsTextMain"/>
+            <TextView
+                android:text="the country itself here"
+                android:layout_toRightOf="@id/countryView"
+                style="@style/profileDetailsMiniText" />
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/genresView"
+                android:src="@drawable/music_note"
+                style="@style/profileDetailsImage" />
+            <TextView
+                android:text="Genres"
+                android:layout_toRightOf="@id/genresView"
+                style="@style/profileDetailsTextMain" />
+            <TextView
+                android:text="music genres here "
+                android:layout_toRightOf="@id/genresView"
+                style="@style/profileDetailsMiniText" />
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+        <RelativeLayout style="@style/profileDetailsLayout">
+            <ImageView
+                android:id="@+id/clapsView"
+                android:src="@drawable/clap"
+                style="@style/profileDetailsImage" />
+            <TextView
+                android:text="Claps"
+                android:layout_toRightOf="@id/clapsView"
+                style="@style/profileDetailsTextMain" />
+            <TextView
+                android:text="number of claps here"
+                android:layout_toRightOf="@id/clapsView"
+                style="@style/profileDetailsMiniText" />
+        </RelativeLayout>
+        <View style="@style/proifleDetailsView" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
